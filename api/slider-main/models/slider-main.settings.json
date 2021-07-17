@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "slider_mains",
+  "info": {
+    "name": "SliderMain",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.slider"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_about_uses",
+  "info": {
+    "name": "About Us",
+    "icon": "barcode",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "AboutTitle": {
+      "type": "string"
+    },
+    "AboutDescription": {
+      "type": "text"
+    },
+    "AboutImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "SectionTitle": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MainSlider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.slider"
+    },
+    "AcademicPrograms": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.academic-programs"
+    },
+    "AboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.about-us"
+    }
+  }
+}

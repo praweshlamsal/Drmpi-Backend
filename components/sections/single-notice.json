@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_single_notices",
+  "info": {
+    "name": "Single Notice",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "NoticeTitle": {
+      "type": "string"
+    },
+    "NoticeDate": {
+      "type": "date"
+    },
+    "NoticeURL": {
+      "type": "string"
+    },
+    "NoticeLocation": {
+      "type": "string"
+    }
+  }
+}

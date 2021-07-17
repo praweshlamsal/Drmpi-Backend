@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_notices",
+  "info": {
+    "name": "Notice",
+    "icon": "clipboard-list"
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "string"
+    }
+  }
+}

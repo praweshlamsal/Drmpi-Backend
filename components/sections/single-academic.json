@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_single_academics",
+  "info": {
+    "name": "Single Academic",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CardTitle": {
+      "type": "string"
+    },
+    "CardDescription": {
+      "type": "richtext"
+    },
+    "CardIcon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "CardUrl": {
+      "type": "string"
+    }
+  }
+}
